@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/inter-latin.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Crimson Pro';
+    src: url('../fonts/crimson-pro-latin.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+}
+
+:root {
+    --color-bg: #fafafa;
+    --color-text: #2c2c2c;
+    --color-secondary: #555e68;
+    --color-accent: #2a6496;
+    --color-border: #e2e5e8;
+    --color-active: #eef3f8;
+    --font-sans: Inter, system-ui, sans-serif;
+    --font-serif: 'Crimson Pro', Georgia, serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font: 1rem/1.7 var(--font-sans); }
+a { color: var(--color-accent); text-underline-offset: 0.2em; }
+a:hover { color: #1d4d73; }
+a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }

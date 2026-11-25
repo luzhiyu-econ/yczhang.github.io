@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <link rel="canonical" href="https://yczhang.org{{PATH}}">
+    <link rel="stylesheet" href="{{ROOT}}css/shared.css">
+    <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <p class="site-title"><a href="{{ROOT}}">YICHUAN ZHANG <span lang="zh-CN">(张艺川)</span></a></p>
+        </header>
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a class="nav-link" href="{{ROOT}}"{{HOME_CURRENT}}>Home</a></li>
+                <li><a class="nav-link" href="{{ROOT}}research/"{{RESEARCH_CURRENT}}>Research</a></li>
+            </ul>
+        </nav>
+        <main>
+{{CONTENT}}
+        </main>
+    </div>
+</body>
+</html>
