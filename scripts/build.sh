@@ -30,9 +30,9 @@ render() {
         -e '/{{CONTENT}}/d' index.html > "$destination"
 }
 
-render home 'Yichuan Zhang (张艺川)' \
-    'Yichuan Zhang is an assistant professor at Jinan University. Her research focuses on the digital economy and innovation management.' \
+render home '张艺川' \
+    '张艺川，暨南大学产业经济研究院助理教授，研究方向为数字经济和创新管理。' \
     '/' './' '_site/index.html'
-render research 'Research – Yichuan Zhang (张艺川)' \
-    'Publications and working papers by Yichuan Zhang.' \
+render research '研究 – 张艺川' \
+    '张艺川已发表的论文及工作论文。' \
     '/research/' '../' '_site/research/index.html'
